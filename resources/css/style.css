@@ -1,0 +1,126 @@
+/*Basic Setup*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    overflow-x: hidden;
+    color: #f1f1b0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row{
+  max-width:1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+h1{
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 350%;
+}
+
+/*web*/
+header{
+    height: 100vh;           
+    background-color: #7fa998;
+}
+
+.wave-emoji{
+    font-size: 50%;
+    margin-bottom: 13px;
+    margin-left: 15px;
+}
+
+.welcome-note{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.welcome-note p{
+    text-align: center;
+    margin: 60px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 165%;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;        
+}
+
+.resumeSection{
+    background-color: #df8543;
+    height: 100vh;
+}
+
+
+.resume{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.resume a:link,
+.resume a:visited{
+    font-size: 150%;
+    text-decoration: none;
+    color: #f1f1b0;
+    border: 2px solid #9d2503;
+    padding: 30px 100px;
+    border-radius: 5px;
+    text-align: center;
+    transition: border 0.3s, color 0.9s;
+}
+
+.resume a:hover,
+.resume a:active{
+    border: 2px solid #df8543;
+    color:#9d2503;
+    
+}
+
+footer{
+    background-color:dimgray;
+    height: 7vh;
+}
+
+.footer-text{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);   
+}
+
+.footer-text a:link,
+.footer-text a:visited{
+    font-size: 70%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #f1f1b0;
+    transition: color 0.6s;
+}
+
+.footer-text a:hover,
+.footer-text a:active{
+    color: #9d2503;
+    font-weight:400;
+}
